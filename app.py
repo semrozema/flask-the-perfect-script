@@ -46,7 +46,7 @@ def predict_revenue_and_rating(text):
 # Define routes
 @app.route('/')
 def upload_file():
-    return render_template('upload.html')
+    return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
